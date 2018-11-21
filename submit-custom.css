@@ -1,0 +1,160 @@
+/* Made input big and move it left and top inside wrapper to hide actual control but leave input clickable */
+input.wpcf7-form-control.wpcf7-file {
+    position: absolute;
+    width: 100%;
+    /* height: 1000px; */
+    /*left: -15%;*/
+    bottom: 25%;
+    outline: none !important;
+}
+
+
+/* Add button text */
+.wpcf7-file:before {
+      content: "ANEXAR ARQUIVO (MAX 3MB) ";
+      padding: 5px;
+      background: red;
+      color: #ffffff;
+      background: #005a7d;
+      width: 100%;
+      height: 33px;
+      margin-bottom: 3%;
+      font-family: "Campton-Bold", Arial, Sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+
+}
+span.wpcf7-not-valid-tip {
+    color: #f00;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    position: relative;
+    top: -100px;
+}
+
+  @media(max-width: 768px) {
+  span.wpcf7-form-control-wrap.anexo {
+    display: inline-block;
+    position: relative;
+    width: 79%;
+    height: 33px;
+    background: #005a7d;
+    color: #FFF;
+    overflow: hidden;
+    left: 21%;
+    top: -28px;
+}
+
+/* Made input big and move it left and top inside wrapper to hide actual control but leave input clickable */
+input.wpcf7-form-control.wpcf7-file {
+    position: absolute;
+    width: 100%;
+    /* height: 1000px; */
+    /*left: -15%;*/
+    bottom: 25%;
+    outline: none !important;
+}
+
+
+/* Add button text */
+.wpcf7-file:before {
+      content: "ANEXAR ARQUIVO (MAX 3MB) ";
+      padding: 5px;
+      background: red;
+      color: #ffffff;
+      background: #005a7d;
+      width: 100%;
+      height: 33px;
+      margin-bottom: 3%;
+      font-family: "Campton-Bold", Arial, Sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+
+}
+  }
+
+/** fim da configuração do botão de anexar arquivo **/
+
+
+
+  .form input[type="submit"] {
+      height: 33px;
+      width: 112px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      box-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      box-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      -o-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center;
+      color: #ffffff;
+      background: #005a7d;
+      font-family: "Campton-Bold", Arial, Sans-serif;
+      text-transform: uppercase;
+      padding-left: 0;
+      margin-right: 0;
+      margin-left: 76%;
+      margin-top: 20%;
+      border: 0; }
+  @media(max-width: 768px) {
+      .form input[type="submit"] {
+      height: 36px;
+      width: 100%;
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      box-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      box-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      -o-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center;
+      color: #ffffff;
+      background: #005a7d;
+      font-family: "Campton-Bold", Arial, Sans-serif;
+      text-transform: uppercase;
+      padding-left: 0;
+      margin-right: 0;
+      margin-left: 0%;
+      margin-top: 30%; }
+
+}
